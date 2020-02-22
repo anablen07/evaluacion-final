@@ -1,0 +1,50 @@
+
+.advertising {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 320px;
+height: 376px;
+padding-left:15px;
+   
+}
+
+.advertising__title2 {
+width: 90px;
+height: 30px;
+color:#87CEEB;
+font-size:14px;
+text-transform: capitalize;
+
+}
+
+.advertising__title1 {
+
+color:#000000;
+font-weight:bold;
+text-transform: capitalize;
+}
+
+.advertising__text {
+
+color:#4a4a4a;
+font-size:18px;
+}
+
+.advertising__button {
+    
+    width: 76px;
+    height: 45px;
+    color: $Button;
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 22.5px;
+    border-color: $Button;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
