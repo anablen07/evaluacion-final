@@ -1,20 +1,23 @@
-.main_container{
+.main_container {
+
     background-color: #eff9ff;
     width: 320px;
     height: 624px;
     align-items: center;
+    text-align: center;
 }
 
 
-.list{
+.list {
+
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 40px 40px;
+    grid-template-rows: 150px 150px 150px;
 
 }
-.button__title{
+.button__title {
  
-    font-family:$textFontThird;
+    font-family:$textFontTitle;
     font-weight: bold;
     font-size: 24px;
     text-transform: capitalize;
@@ -25,34 +28,45 @@
     border-style: solid;
     border-color: transparent;
     border-radius: 22.5px;
-
+    padding: 15px;
 
 }
 
+a {
+    color: black;
+    transition: color ease 0.8s;
+    &:hover {
+      color: red;
+    }
+  }
+
 .reasons__title {
+
     font-weight: bold;
-    font-size: 14px;
-    font-family:$textFontThird;
+    font-size: 18px;
+    font-family:$textFontTitle;
 }
 
 .reasons__text {
-    font: 18px;
-    font-family:$textFontSecundary;
+
+    font-size: 18px;
+    font-family:$textFontText;
   
 }
 
-.main__button{
+.main__button { 
     
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        background-color: $Button;
-        padding: 10px;
-        font-size: 20px;
-        font-weight:$textFontFourth;
-        width: 184px;
-        height: 45px;
-        border-radius: 22.5px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: $Button;
+    padding: 10px;
+    font-size: 20px;
+    font-family:$textFontText;
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    margin: 20px;
 }
 

@@ -7,6 +7,7 @@ justify-content: flex-start;
 width: 320px;
 height: 376px;
 padding-left:15px;
+padding-right: 15px;
    
 }
 
@@ -16,6 +17,10 @@ height: 30px;
 color:#87CEEB;
 font-size:14px;
 text-transform: capitalize;
+padding-top: 30px;
+font-family: $textFontText;
+padding-top:30px;
+
 
 }
 
@@ -24,12 +29,17 @@ text-transform: capitalize;
 color:#000000;
 font-weight:bold;
 text-transform: capitalize;
+font-family:$textFontTitle;
+font-size:24px;
+margin-top: 25px;
+
 }
 
 .advertising__text {
 
 color:#4a4a4a;
 font-size:18px;
+line-height: 30px;
 }
 
 .advertising__button {
@@ -37,14 +47,22 @@ font-size:18px;
     width: 76px;
     height: 45px;
     color: $Button;
-    display: inline-block;
-    text-decoration: none;
+    font-family:$textFontText;
     background-color: transparent;
-    border-width: 2px;
-    border-style: solid;
+    border: solid 2px;
     border-radius: 22.5px;
     border-color: $Button;
-    padding: 10px;
     font-size: 20px;
+    margin-top: 30px;
+    text-transform: capitalize;
     text-align: center;
+
+
+    &:hover {
+
+        background: white;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+
+}
+
 }
