@@ -2,6 +2,7 @@
   background-color: #eff9ff;
   align-items: center;
   text-align: center;
+  padding: 30px 15px;
 
   & .list {
     display: grid;
@@ -53,13 +54,14 @@
     color: white;
     display: inline-block;
     text-decoration: none;
-    text-align: center;
     background-color: $Button;
-    padding: 10px;
     font-size: 20px;
     font-family: $textFontText;
+    text-align: center;
     width: 184px;
     height: 45px;
     border-radius: 22.5px;
+    padding: 10px;
+   
   }
 }
